@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'front';
-  side = '0vw';
+  side = '18vw';
   openNav() {
     this.side = '18vw';
   }

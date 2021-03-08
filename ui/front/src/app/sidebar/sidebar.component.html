@@ -1,7 +1,11 @@
 <div id="mySidebar" class="sidebar">
   <a href="javascript:void(0)" class="closebtn" (click)="closeNav()">&times;</a>
-  <a href="#">About</a>
-  <a href="#">Services</a>
-  <a href="#">Clients</a>
-  <a href="#">Contact</a>
+  <a [routerLink]="'loans'" routerLinkActive="active">Loan</a>
+  <a [routerLink]="'audits'" routerLinkActive="active">Audit</a>
+  <a [routerLink]="'reports'" routerLinkActive="active">Reports</a>
+  <a [routerLink]="'invoices'" routerLinkActive="active">Invoices</a>
+  <a [routerLink]="'settings'" routerLinkActive="active">Settings</a>
+  <a [routerLink]="'payments'" routerLinkActive="active">Payments</a>
+  <a [routerLink]="'customers'" routerLinkActive="active">Customers</a>
+  <a [routerLink]="'loantypes'" routerLinkActive="active">Loan Types</a>
 </div>
